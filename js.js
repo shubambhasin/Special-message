@@ -4,9 +4,10 @@ window.onLoad(
 
     setTimeout(() => {
       document.querySelector(".text").innerHTML = "You know you are special !";
+      console.log("you are special");
       setTimeout(() => {
         document.querySelector(".text").innerHTML =
-          "Never undersetimate your skills ,your talent, your hardwork!";
+          "Never underetimate your skills ,your talent, your hardwork!";
         setTimeout(() => {
           document.querySelector(".text").innerHTML =
             "Everones struggle is different, all you have to do is work towards your goal honestly! Things will definitely get better !!!!";
